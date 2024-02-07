@@ -12,7 +12,7 @@ import { ShareButton } from "./components/ShareButton";
 
 export default function Home() {
   return (
-    <div className="px-4 md:px-8">
+    <div className="px-6 md:px-8">
       <section className="min-h-svh flex justify-center flex-col">
         <h2 className="text-center font-bold text-6xl tracking-tight">
           The quick brown fox jumps over the lazy dog.
