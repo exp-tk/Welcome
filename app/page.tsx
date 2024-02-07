@@ -12,8 +12,8 @@ import { ShareButton } from "./components/ShareButton";
 
 export default function Home() {
   return (
-    <>
-      <section className="min-h-screen flex justify-center flex-col p-8">
+    <div className="px-4 md:px-8">
+      <section className="min-h-svh flex justify-center flex-col">
         <h2 className="text-center font-bold text-6xl tracking-tight">
           The quick brown fox jumps over the lazy dog.
         </h2>
@@ -29,16 +29,15 @@ export default function Home() {
           </Button>
         </div>
       </section>
-      i
-      <section className="min-h-screen flex flex-col px-8 py-24">
-        <h2 className="max-w-max font-bold text-6xl tracking-tight border-slate-950 border-b-8">
+      <section className="min-h-svh flex flex-col">
+        <h2 className="max-w-max font-bold text-4xl md:text-6xl tracking-tight border-slate-950 border-b-8">
           Applications
         </h2>
-        <h3 className="font-bold text-2xl tracking-tight mt-2">
+        <h3 className="font-bold md:text-2xl tracking-tight mt-2">
           実施中のオープンテスト
         </h3>
-        <div className="flex flex-1 items-center justify-center">
-          <Card className="w-[400px]">
+        <div className="my-16 md:flex md:flex-1 md:items-center md:justify-center">
+          <Card className="w-auto md:w-[400px]">
             <CardHeader className="flex gap-3">
               <Link isExternal href="https://led.tinykitten.dev">
                 <Image
@@ -75,17 +74,17 @@ export default function Home() {
           </Card>
         </div>
       </section>
-      <section className="min-h-screen flex flex-col px-8 py-24">
-        <h2 className="max-w-max font-bold text-6xl tracking-tight border-slate-950 border-b-8">
+      <section className="min-h-svh flex flex-col">
+        <h2 className="max-w-max font-bold text-4xl md:text-6xl tracking-tight border-slate-950 border-b-8">
           Buy Me A Beer
         </h2>
-        <h3 className="font-bold text-2xl tracking-tight mt-2">
+        <h3 className="font-bold md:text-2xl tracking-tight mt-2">
           応援してくれてもいいんですよ
         </h3>
         <div className="flex flex-1 items-center justify-center">
           <ShareButton />
         </div>
       </section>
-    </>
+    </div>
   );
 }
