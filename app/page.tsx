@@ -13,7 +13,7 @@ import { ShareButton } from "./components/ShareButton";
 export default function Home() {
   return (
     <div className="px-6 md:px-8">
-      <section className="min-h-dvh flex justify-center flex-col">
+      <section className="min-h-screen flex justify-center flex-col">
         <h2 className="text-center font-bold text-6xl tracking-tight">
           The quick brown fox jumps over the lazy dog.
         </h2>
@@ -29,7 +29,7 @@ export default function Home() {
           </Button>
         </div>
       </section>
-      <section className="min-h-dvh flex flex-col pt-24">
+      <section className="min-h-screen flex flex-col pt-24">
         <h2 className="max-w-max font-bold text-4xl md:text-6xl tracking-tight border-slate-950 border-b-8">
           Applications
         </h2>
@@ -74,7 +74,7 @@ export default function Home() {
           </Card>
         </div>
       </section>
-      <section className="min-h-dvh flex flex-col pt-24">
+      <section className="min-h-screen flex flex-col pt-24">
         <h2 className="max-w-max font-bold text-4xl md:text-6xl tracking-tight border-slate-950 border-b-8">
           Buy Me A Beer
         </h2>
