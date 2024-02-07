@@ -2,7 +2,7 @@ import { TKSymbol } from "./Symbol";
 
 export const Header = () => {
   return (
-    <header className="sticky top-0 flex items-center px-4 md:px-8 py-4 shadow w-full bg-background z-50 justify-between md:gap-16">
+    <header className="sticky -mb-16 top-0 flex items-center px-4 md:px-8 py-4 shadow w-full bg-background z-50 justify-between md:gap-16">
       <div className="flex">
         <TKSymbol width={32} height={32} />
         <div className="ml-2 md:ml-2">
