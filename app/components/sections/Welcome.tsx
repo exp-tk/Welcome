@@ -3,7 +3,7 @@ import { PAGE_SECTION } from "@/app/atoms/activeSection";
 import { useIntersectSection } from "@/app/hooks/useIntersectSection";
 import { Button } from "@nextui-org/react";
 import { useRef } from "react";
-import { Element } from "react-scroll";
+import { Element, Link } from "react-scroll";
 
 export const WelcomeSection = () => {
   const ref = useRef<HTMLElement | null>(null);
@@ -19,10 +19,18 @@ export const WelcomeSection = () => {
           素早い茶色の狐はのろまな犬を飛び越える
         </h3>
         <div className="text-center mt-8">
-          <Button color="primary" size="lg" variant="shadow">
+          <Button
+            color="primary"
+            size="lg"
+            variant="shadow"
+            // react-scroll
+            as={Link}
+            to={PAGE_SECTION.Apps}
+            smooth
+            duration={500}
+          >
             <span className="text-center font-bold">
-              <p className="font-bold">オープンテストに参加する</p>
-              <p className="text-xs font-bold">(押しても何も起こらないよ)</p>
+              オープンテストに参加する
             </span>
           </Button>
         </div>
