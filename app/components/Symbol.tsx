@@ -6,19 +6,21 @@ export const TKSymbol = (
     invert?: boolean;
   }
 ) => {
+  const { theme, invert, ...rest } = props ?? {};
+
   const circleFill = (() => {
-    if (!props?.invert) {
-      return props?.theme === "black" ? "#212121" : "#008ffe";
+    if (!invert) {
+      return theme === "black" ? "#212121" : "#008ffe";
     }
 
     return "#fff";
   })();
 
   const pathFill = (() => {
-    if (!props?.invert) {
+    if (!invert) {
       return "#fff";
     }
-    return props?.theme === "black" ? "#212121" : "#008ffe";
+    return theme === "black" ? "#212121" : "#008ffe";
   })();
 
   return (
@@ -26,7 +28,7 @@ export const TKSymbol = (
       viewBox="0 0 512 512"
       version="1.1"
       xmlns="http://www.w3.org/2000/svg"
-      {...props}
+      {...rest}
     >
       <circle cx="256" cy="256" r="256" fill={circleFill} />
       <path
