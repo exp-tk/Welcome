@@ -1,6 +1,7 @@
 "use client";
 import { useAtomValue } from "jotai";
-import { Link } from "react-scroll";
+import { useEffect, useState } from "react";
+import { Events, Link } from "react-scroll";
 import {
   PAGE_SECTION,
   PageSection,
@@ -10,10 +11,25 @@ import { TKSymbol } from "./Symbol";
 
 export const Header = () => {
   const activeSection = useAtomValue(activeSectionState);
+  const [disableAnchorColoring, setDisableAnchorColoring] = useState(false);
+
+  useEffect(() => {
+    Events.scrollEvent.register("begin", (to, element) => {
+      setDisableAnchorColoring(true);
+    });
+    Events.scrollEvent.register("end", (to, element) => {
+      setDisableAnchorColoring(false);
+    });
+
+    return () => {
+      Events.scrollEvent.remove("begin");
+      Events.scrollEvent.remove("end");
+    };
+  }, []);
 
   const getAnchorClassName = (sec: PageSection) =>
-    `font-bold ${
-      sec === activeSection
+    `transition-colors font-bold ${
+      sec === activeSection && !disableAnchorColoring
         ? "text-primary drop-shadow-[0_0_4px_hsl(var(--nextui-primary-100))]"
         : ""
     }`;
