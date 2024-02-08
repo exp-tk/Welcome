@@ -21,8 +21,9 @@ export const ShareSection = () => {
         <h3 className="font-bold md:text-2xl tracking-tight mt-2">
           TinyKittenを応援しよう
         </h3>
-        <div className="flex flex-1 items-center justify-center">
-          <ShareButton />
+        <div className="flex flex-1 items-center justify-center flex-col gap-8">
+          <ShareButton media="X" />
+          <ShareButton media="LINE" />
         </div>
       </section>
     </Element>
