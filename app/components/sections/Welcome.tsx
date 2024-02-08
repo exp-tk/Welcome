@@ -13,7 +13,7 @@ export const WelcomeSection = () => {
     <Element name={PAGE_SECTION.Welcome}>
       <section
         ref={ref}
-        className="min-h-screen flex justify-center flex-col pt-24"
+        className="min-h-screen flex justify-center flex-col pt-24 -mt-8"
       >
         <h2 className="text-center font-bold text-6xl tracking-tight">
           The quick brown fox jumps over the lazy dog.
