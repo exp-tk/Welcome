@@ -6,7 +6,7 @@ import "./globals.css";
 import { Providers } from "./providers";
 
 export const metadata: Metadata = {
-  title: "TK DevPortal",
+  title: "Dev Portal",
   description: "A serial experimental project.",
 };
 
