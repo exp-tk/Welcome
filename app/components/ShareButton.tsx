@@ -14,7 +14,7 @@ const MEDIA_INFO_MAP: Record<
   X: {
     brandColor: "#0f1419",
     shareText: "Xでシェア",
-    href: "https://twitter.com/intent/tweet?url=https://tinykitten.dev&text=TinyKittenの開発中アプリだよ&via=tinykitten8&related=tinykitten8",
+    href: "https://twitter.com/intent/tweet?url=https://tinykitten.dev&text=フリーランスエンジニアTinyKittenの開発中アプリだよ&via=tinykitten8&related=tinykitten8",
   },
   LINE: {
     brandColor: "#00b900",
