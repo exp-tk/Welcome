@@ -45,7 +45,7 @@ export const AppsSection = () => {
                 <div className="flex flex-col">
                   <p className="text-md text-foreground">TrainLED</p>
                   <p className="text-small text-default-500">
-                    <span className="font-bold">led</span>.tinykitten.dev
+                    <span className="font-semibold">led</span>.tinykitten.dev
                   </p>
                 </div>
               </Link>
