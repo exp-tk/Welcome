@@ -2,16 +2,12 @@
 
 import { Button } from "@nextui-org/react";
 
-export const ShareButton = () => {
-  return (
-    <Button
-      className="flex flex-col gap-0"
-      color="primary"
-      size="lg"
-      variant="shadow"
-    >
-      <p className="font-bold">何かしらで応援する</p>
-      <p className="text-xs font-bold">(押しても何も起こらないよ)</p>
-    </Button>
-  );
-};
+export const ShareButton = () => (
+  <Button
+    className="bg-[#0f1419] text-white shadow-lg shadow-[#0f1419]/40"
+    size="lg"
+    onClick={() => alert("サイトが完成していないから無効化してるよ")}
+  >
+    <span className="font-bold">Xでシェアする</span>
+  </Button>
+);

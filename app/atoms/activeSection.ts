@@ -2,6 +2,7 @@ import { atom } from "jotai";
 
 export const PAGE_SECTION = {
   Welcome: "Welcome",
+  About: "About",
   Apps: "Apps",
   Share: "Share",
 } as const;

@@ -52,10 +52,8 @@ export const AppsSection = () => {
             </CardHeader>
             <Divider />
             <CardBody>
-              <p>
-                TrainLCDアプリのスピンオフ。お使いのブラウザで使えるあなた専用の電光掲示板。
-                <br />
-                不慣れな路線で迷いそうな時、降りれるか不安な時。きっとあなたの役に立つはずです。
+              <p className="text-pretty">
+                TrainLCDアプリのスピンオフ。お使いのブラウザで使えるあなた専用の電光掲示板。不慣れな路線で迷いそうな時、降りれるか不安な時。きっとあなたの役に立つはずです。
               </p>
             </CardBody>
             <Divider />

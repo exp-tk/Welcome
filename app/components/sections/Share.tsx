@@ -16,10 +16,10 @@ export const ShareSection = () => {
         className="min-h-screen flex justify-center flex-col pt-24"
       >
         <h2 className="max-w-max font-bold text-4xl md:text-6xl tracking-tight border-slate-950 border-b-8">
-          Buy Me A Beer
+          Support Me
         </h2>
         <h3 className="font-bold md:text-2xl tracking-tight mt-2">
-          応援してくれてもいいんですよ
+          TinyKittenを応援しよう
         </h3>
         <div className="flex flex-1 items-center justify-center">
           <ShareButton />

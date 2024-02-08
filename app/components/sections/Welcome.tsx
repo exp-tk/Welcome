@@ -12,13 +12,14 @@ export const WelcomeSection = () => {
   return (
     <Element name={PAGE_SECTION.Welcome}>
       <section ref={ref} className="min-h-screen flex justify-center flex-col">
-        <h2 className="text-center font-bold text-6xl tracking-tight">
-          The quick brown fox jumps over the lazy dog.
+        <h2 className="text-center font-bold text-4xl text-pretty md:text-6xl tracking-tight">
+          Public testing of <span className="text-primary">TinyKitten</span>
+          &apos;s apps in development in one place.
         </h2>
-        <h3 className="text-center font-bold text-3xl tracking-tight mt-2">
-          素早い茶色の狐はのろまな犬を飛び越える
+        <h3 className="text-center font-bold text-lg text-pretty md:text-3xl tracking-tight mt-4">
+          フリーランスエンジニア「TinyKitten」が開発中アプリを一つのページに集約しました
         </h3>
-        <div className="text-center mt-8">
+        <div className="text-center mt-8 md:mt-12">
           <Button
             color="primary"
             size="lg"
