@@ -11,10 +11,7 @@ export const WelcomeSection = () => {
 
   return (
     <Element name={PAGE_SECTION.Welcome}>
-      <section
-        ref={ref}
-        className="min-h-screen flex justify-center flex-col pt-24"
-      >
+      <section ref={ref} className="min-h-screen flex justify-center flex-col">
         <h2 className="text-center font-bold text-6xl tracking-tight">
           The quick brown fox jumps over the lazy dog.
         </h2>
