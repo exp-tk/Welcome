@@ -39,16 +39,17 @@ export const AboutMeSection = () => {
               <br />
               でも、「きったん」と呼ばれることが多いです。
             </p>
-            <div>
-              <Link href="https://tinykitten.me/" target="_blank">
-                <Button color="primary" size="lg" variant="shadow">
-                  <span className="text-center font-bold">
-                    ポートフォリオを見る
-                  </span>
-                </Button>
-              </Link>
-            </div>
           </div>
+          <Button
+            as={Link}
+            color="primary"
+            size="lg"
+            variant="shadow"
+            href="https://tinykitten.me/"
+            target="_blank"
+          >
+            <span className="text-center font-bold">ポートフォリオを見る</span>
+          </Button>
         </div>
       </section>
     </Element>
