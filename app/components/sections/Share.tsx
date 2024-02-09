@@ -4,6 +4,7 @@ import { useIntersectSection } from "@/app/hooks/useIntersectSection";
 import { useRef } from "react";
 import { Element } from "react-scroll";
 import { ShareButton } from "../ShareButton";
+import { Button, Link } from "@nextui-org/react";
 
 export const ShareSection = () => {
   const ref = useRef<HTMLElement | null>(null);
@@ -22,8 +23,26 @@ export const ShareSection = () => {
           TinyKittenを応援しよう
         </h3>
         <div className="flex flex-1 items-center justify-center flex-col gap-8">
-          <ShareButton media="X" />
-          <ShareButton media="LINE" />
+          <Button
+            as={Link}
+            href={
+              "https://twitter.com/intent/tweet?url=https://tinykitten.dev&text=フリーランスエンジニアTinyKittenの開発中アプリだよ&via=tinykitten8&related=tinykitten8"
+            }
+            target="_blank"
+            className={`w-72 h-14 max-w-full bg-[--brand-color-x] text-white shadow-lg shadow-[--brand-color-x]/40`}
+          >
+            <span className="text-lg font-bold">Xでシェア</span>
+          </Button>
+          <Button
+            as={Link}
+            href={
+              "https://social-plugins.line.me/lineit/share?url=https://tinykitten.dev"
+            }
+            target="_blank"
+            className={`w-72 h-14 max-w-full bg-[--brand-color-line] text-white shadow-lg shadow-[--brand-color-line]/40`}
+          >
+            <span className="text-lg font-bold">LINEで送る</span>
+          </Button>
         </div>
       </section>
     </Element>

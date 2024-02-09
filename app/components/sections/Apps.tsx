@@ -58,7 +58,7 @@ export const AppsSection = () => {
             </CardBody>
             <Divider />
             <CardFooter>
-              <Link isExternal showAnchorIcon href="https://led.tinykitten.dev">
+              <Link isExternal href="https://led.tinykitten.dev">
                 オープンテストに参加
               </Link>
             </CardFooter>
