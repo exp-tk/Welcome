@@ -6,6 +6,8 @@
     :root {
       --brand-color-x: #0f1419;
       --brand-color-line: #00b900;
+      --brand-color-x-shadow: #0f1419b3;
+      --brand-color-line-shadow: #00b900b3;
     }
   }
   

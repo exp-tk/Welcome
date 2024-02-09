@@ -28,7 +28,7 @@ export const ShareSection = () => {
               "https://twitter.com/intent/tweet?url=https://tinykitten.dev&text=フリーランスエンジニアTinyKittenの開発中アプリだよ&via=tinykitten8&related=tinykitten8"
             }
             target="_blank"
-            className={`w-72 h-14 max-w-full bg-[--brand-color-x] text-white shadow-lg shadow-[--brand-color-x]/40`}
+            className={`w-72 h-14 max-w-full bg-[--brand-color-x] text-white shadow-lg shadow-[--brand-color-x-shadow]`}
           >
             <span className="text-lg font-bold">Xでシェア</span>
           </Button>
@@ -38,7 +38,7 @@ export const ShareSection = () => {
               "https://social-plugins.line.me/lineit/share?url=https://tinykitten.dev"
             }
             target="_blank"
-            className={`w-72 h-14 max-w-full bg-[--brand-color-line] text-white shadow-lg shadow-[--brand-color-line]/40`}
+            className={`w-72 h-14 max-w-full bg-[--brand-color-line] text-white shadow-lg shadow-[--brand-color-line-shadow]`}
           >
             <span className="text-lg font-bold">LINEで送る</span>
           </Button>
