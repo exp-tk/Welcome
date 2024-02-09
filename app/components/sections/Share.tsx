@@ -3,7 +3,6 @@ import { PAGE_SECTION } from "@/app/atoms/activeSection";
 import { useIntersectSection } from "@/app/hooks/useIntersectSection";
 import { useRef } from "react";
 import { Element } from "react-scroll";
-import { ShareButton } from "../ShareButton";
 import { Button, Link } from "@nextui-org/react";
 
 export const ShareSection = () => {
