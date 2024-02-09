@@ -34,7 +34,7 @@ export const AppsSection = () => {
             <CardHeader className="flex gap-3">
               <Link isExternal href="https://led.tinykitten.dev">
                 <Image
-                  alt="TrainLED"
+                  alt="TrainLED Canary"
                   height={40}
                   radius="sm"
                   src="https://github.com/exp-tk/TrainLED/blob/main/public/icons/icon-512.png?raw=true"
@@ -43,7 +43,7 @@ export const AppsSection = () => {
               </Link>
               <Link isExternal href="https://led.tinykitten.dev">
                 <div className="flex flex-col">
-                  <p className="text-md text-foreground">TrainLED</p>
+                  <p className="text-md text-foreground">TrainLED Canary</p>
                   <p className="text-small text-default-500">
                     <span className="font-semibold">led</span>.tinykitten.dev
                   </p>
