@@ -37,7 +37,7 @@ export const AppsSection = () => {
                   alt="TrainLED Canary"
                   height={40}
                   radius="sm"
-                  src="https://github.com/exp-tk/TrainLED/blob/main/public/icons/icon-512.png?raw=true"
+                  src="https://led.tinykitten.dev/icon.png"
                   width={40}
                 />
               </Link>
