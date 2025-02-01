@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { PortalLogo } from "./PortalLogo";
-import { TKProduct } from "./TKProduct";
+import { TinyKittenProduct } from "./TKProduct";
 
 export const Footer = () => (
   <footer className="bg-secondary p-8 text-white flex justify-between flex-col md:items-center">
@@ -18,9 +18,9 @@ export const Footer = () => (
         <PortalLogo invert />
       </div>
       <div className="flex md:items-end md:self-right flex-col">
-        <TKProduct />
+        <TinyKittenProduct />
         <p className="text-xs mt-4 text-gray-300 font-medium">
-          &copy; 2024 TinyKitten(Tsubasa SEKIGUCHI)
+          &copy; 2024-2025 TinyKitten(Tsubasa SEKIGUCHI)
         </p>
       </div>
     </div>
