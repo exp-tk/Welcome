@@ -27,15 +27,13 @@ export const AboutMeSection = () => {
           <TKSymbol className="w-32 md:w-44 drop-shadow-[0_0_8px_rgba(0,145,255,0.5)]" />
           <div className="w-full md:text-center mt-6">
             <h4 className="font-bold text-md text-balance md:text-xl leading-5 tracking-tight">
-              フリーランス
-              <br />
-              フロントエンドエンジニア
+              クリエイター
             </h4>
             <h3 className="font-bold text-4xl md:mt-2 text-pretty mb-4 md:text-5xl tracking-tight">
               TinyKitten
             </h3>
             <p className="font-bold text-pretty mb-10 md:text-lg">
-              東京都練馬区在住のフリーのフロントエンドエンジニア。タイニーキトゥンと読みます。
+              東京都練馬区在住のクリエイター。タイニーキトゥンと読みます。
               <br />
               でも、「きったん」と呼ばれることが多いです。
             </p>

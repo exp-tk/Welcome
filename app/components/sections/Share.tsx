@@ -25,7 +25,7 @@ export const ShareSection = () => {
           <Button
             as={Link}
             href={
-              "https://twitter.com/intent/tweet?url=https://tinykitten.dev&text=フリーランスエンジニアTinyKittenの開発中アプリだよ&via=tinykitten8&related=tinykitten8"
+              "https://twitter.com/intent/tweet?url=https://tinykitten.dev&text=クリエイター「TinyKitten」の開発中アプリだよ&via=tinykitten8&related=tinykitten8"
             }
             target="_blank"
             className={`w-72 h-14 max-w-full bg-[--brand-color-x] text-white shadow-lg shadow-[--brand-color-x-shadow]`}

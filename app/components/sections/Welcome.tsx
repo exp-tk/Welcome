@@ -17,7 +17,7 @@ export const WelcomeSection = () => {
           &apos;s apps in development in one place.
         </h2>
         <h3 className="text-center font-bold text-lg text-pretty md:text-3xl tracking-tight mt-4">
-          フリーランスエンジニア「TinyKitten」が開発中アプリを一つのページに集約しました
+          クリエイター「TinyKitten」が開発中アプリを一つのページに集約しました
         </h3>
         <div className="text-center mt-8 md:mt-12">
           <Button
